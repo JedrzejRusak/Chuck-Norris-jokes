@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Chuck-Norris-jokes/static/css/main.c0891b17.chunk.css",
+    "main.js": "/Chuck-Norris-jokes/static/js/main.46ad3ad3.chunk.js",
+    "main.js.map": "/Chuck-Norris-jokes/static/js/main.46ad3ad3.chunk.js.map",
+    "runtime-main.js": "/Chuck-Norris-jokes/static/js/runtime-main.92176c3d.js",
+    "runtime-main.js.map": "/Chuck-Norris-jokes/static/js/runtime-main.92176c3d.js.map",
+    "static/js/2.83189d26.chunk.js": "/Chuck-Norris-jokes/static/js/2.83189d26.chunk.js",
+    "static/js/2.83189d26.chunk.js.map": "/Chuck-Norris-jokes/static/js/2.83189d26.chunk.js.map",
+    "static/js/3.52fc5b2d.chunk.js": "/Chuck-Norris-jokes/static/js/3.52fc5b2d.chunk.js",
+    "static/js/3.52fc5b2d.chunk.js.map": "/Chuck-Norris-jokes/static/js/3.52fc5b2d.chunk.js.map",
+    "index.html": "/Chuck-Norris-jokes/index.html",
+    "static/css/main.c0891b17.chunk.css.map": "/Chuck-Norris-jokes/static/css/main.c0891b17.chunk.css.map",
+    "static/js/2.83189d26.chunk.js.LICENSE.txt": "/Chuck-Norris-jokes/static/js/2.83189d26.chunk.js.LICENSE.txt",
+    "static/media/Chuck-Norris-photo@2x.1d437922.jpg": "/Chuck-Norris-jokes/static/media/Chuck-Norris-photo@2x.1d437922.jpg",
+    "static/media/Chuck-Norris-photo@3x.454115c3.jpg": "/Chuck-Norris-jokes/static/media/Chuck-Norris-photo@3x.454115c3.jpg",
+    "static/media/Chuck-Norris.d2ab5d43.jpg": "/Chuck-Norris-jokes/static/media/Chuck-Norris.d2ab5d43.jpg",
+    "static/media/Random-photo@2x.9c55d2b8.png": "/Chuck-Norris-jokes/static/media/Random-photo@2x.9c55d2b8.png",
+    "static/media/Random-photo@3x.a3117705.png": "/Chuck-Norris-jokes/static/media/Random-photo@3x.a3117705.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92176c3d.js",
+    "static/js/2.83189d26.chunk.js",
+    "static/css/main.c0891b17.chunk.css",
+    "static/js/main.46ad3ad3.chunk.js"
+  ]
+}
