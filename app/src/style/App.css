@@ -1,38 +1,101 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+	 background-color: #f9f9f9;
+}
+
+.app{
+    position:absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width:320px;
+    height: 654px;
+    padding: 28px 28px 72px;   
+    border-radius: 20px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+    background-color: white;
+}
+@media (min-width: 360px) {
+  .app{
+     width:360px;
+  }
+}
+
+@media (min-width: 600px) {
+  .app{
+     width: 555px;
+     padding: 48px 58px 72px;
+     height: 704px;
+  }
+}
+
+@media (min-height: 654px) {
+  .app{
+     top: 50%;
+     transform: translate(-50% , -50%);
+  };
+}
+
+.app__img{
+    width:100%;
+    margin: 24px 0 24px;
+    border-radius:5px;  
+}
+@media (min-width: 600px) {
+  .app__img{
+     width: 439px;
+    height: 130px;
+  }
+}
+
+.app__impersonate{
+  width: 439px;
+
+  width:100%;
+  height: 58px;
+  margin: 16px 0 32px;
+  padding: 16px;
+  border: solid 3px #c4c4c4;
+  border-radius: 6px;
+  background-color: white;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: -0.52px;
+  text-align: left;
+  color: #34394f;
+}
+
+::placeholder { 
+  color: #c4c4c4;
+  
+}
+
+
+.app__submit{
+  width: 439px;
+
+  width:100%;
+  height: 58px;
+  margin: 32px 0 0;
+  padding: 16.8px 10 15.2px ;
+  border-radius: 6px;
+  background-color: #34394f;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

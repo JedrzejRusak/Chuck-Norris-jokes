@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 
-import chuck from "./img/Chuck Norris.jpg";
-import Joke from './components/Joke';
-import random from './img/Random photo.png';
-import Categories from './components/Categories';
+import chuck from "../img/Chuck Norris.jpg";
+import random from '../img/Random photo.png';
+import Joke from './Joke';
+import Categories from './Categories';
+import '../style/App.css'
 
 
 

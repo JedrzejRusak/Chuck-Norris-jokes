@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/Categories.css'
 
 const Categories = props => (
 	<div className='categories-container'>
