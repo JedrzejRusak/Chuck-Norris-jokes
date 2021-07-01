@@ -34,7 +34,7 @@ class App extends Component {
   }
 
   handleDataFetch = () => {
-        fetch(`http://api.icndb.com/jokes/random?${this.state.impersonate[0] ? `firstName=${this.state.impersonate[0]}&lastName=${this.state.impersonate[1] ? this.state.impersonate[1] : ''}&` : ''}${this.state.category ==='select' ? '' : `limitTo=[${this.state.category}]`}`)
+        fetch(`https://api.icndb.com/jokes/random?${this.state.impersonate[0] ? `firstName=${this.state.impersonate[0]}&lastName=${this.state.impersonate[1] ? this.state.impersonate[1] : ''}&` : ''}${this.state.category ==='select' ? '' : `limitTo=[${this.state.category}]`}`)
         .then(response => response.json())
         .then(data => {
             this.setState({
@@ -44,7 +44,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-        fetch(`http://api.icndb.com/jokes/random`)
+        fetch(`https://api.icndb.com/jokes/random`)
         .then(response => response.json())
         .then(data => {
             this.setState({
