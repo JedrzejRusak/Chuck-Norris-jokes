@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 import chuck from "./img/Chuck Norris.jpg";
+import Joke from './components/Joke';
 import random from './img/Random photo.png';
-import Categories from './Categories';
-import Joke from './Joke';
+import Categories from './components/Categories';
 
 
 
@@ -60,6 +60,8 @@ class App extends Component {
       <main>
         <div className="app">
           <img className='app__img' src={this.state.impersonate[0] ? random : chuck} alt="Chuck Norris" />
+          <Joke joke={this.state.joke} />
+          <Categories category={this.state.category} handleClickCategoriesActive={this.handleClickCategoriesActive} handleClickCategories={this.handleClickCategories}/>          
           <input className='app__impersonate' type="text" name="impersonate" placeholder="Impersonate Chuck Norris"  onChange={this.handleChangeImpersonate} />
           <input className='app__submit' type="submit" value={`Draw a ${this.state.impersonate[0] ? this.state.impersonate.join(' ') : 'Chuck Norris'} joke`} onClick={this.handleDataFetch} />
         </div>
